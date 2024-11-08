@@ -14,6 +14,7 @@ function App() {
       return;
     }
 
+
     if (withdrawValue > 0 && withdrawValue <= balance) {
       const newBalance = balance - withdrawValue;
       setBalance(newBalance);
@@ -39,6 +40,7 @@ function App() {
             </button>
           ))}
         </div>
+        
         <input
           type="number"
           placeholder="จำนวนเงินที่ต้องการถอน"
